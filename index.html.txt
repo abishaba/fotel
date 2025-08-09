@@ -1,0 +1,216 @@
+ <!doctype html>
+<html>
+  
+  <head>
+    
+    <title>document</title>
+    <meta name="description" content="welcom to my wib sit">
+    <meta name="author" content="salah">
+    <meta name="keywords" content="html,css,js">
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="done.css">
+    
+<style>
+        
+body{
+  
+  background-color:#0B3261;
+  
+}
+
+@import url('https://fonts.cdnfonts.com/css/sofia-sans-condensed');
+
+.pro{
+display: flex;
+flex-flow:wrap column;
+justify-content:center;
+align-items:center;
+width:100%;
+height:90vh;
+perspective:1000px;
+}
+
+.inherit{
+  
+  width:363px;
+  height:203px;
+  padding:12px;
+  position:relative;
+  transition:all 0.8s;
+  transform-style:preserve-3d;
+}
+
+.inherit:hover{
+  
+  transition:all 0.8s;
+  cursor:pointer;
+  transform:rotatey(180deg);
+}
+
+/* part 1*/
+
+ .items{
+   
+   color:white;
+   font-family:Sans-Serif;
+   font-size:19px;
+   margin: 10px;
+   border-radius:10px;
+    width:355px;
+    height:200px;
+   background:#121111;
+   position:absolute;
+   bottom:0;
+   z-index: -1;
+   transform:rotatey(180deg);
+ }
+ 
+ p{
+   
+   position:absolute;
+    bottom:12px;
+    left:12px;
+ }
+ 
+ .name{
+   
+   font-size:21px;
+   font-family:monospace;
+   position:absolute;
+   
+   top:80px;
+   left:12px;
+ }
+ 
+ .par{
+   
+   position:absolute;
+   left:263px;
+   top:-17px;
+    font-size:21px;
+    height:15px;
+    width:40px;
+    padding:5px;
+    padding-bottom:9px;
+    background:white;
+    color:black;
+    border-radius:5px;
+ }
+ 
+ .img2{
+   
+   width:95px;
+   height:70px;
+   position:absolute;
+   right:6px;
+   bottom:12px;
+ }
+ 
+.card2{
+  
+  
+  background:white;
+  height:35px;
+  width:75%;
+  border:none;
+  
+  position:absolute;
+  top:5px;
+}
+ /*--*/
+ 
+.items-test{
+ 
+ position:absolute;
+ top:0;
+ width:355px;
+height:200px;
+z-index: -1;
+backface-visibility: hidden;
+ }
+ 
+.items2{
+  width:100%;
+  height:199px;
+  padding:10px;
+  position:relative;
+  color:white;
+  border-radius:10px;
+  background:#121111;
+  border:none;
+}
+
+
+.img3{
+  
+  width:100px;
+  height:70px;
+  position:absolute;
+  top:145px;
+  left:270px;
+}
+
+.master{
+  
+  text-align:left;
+  margin-top:1px;
+  font-family: 'Sofia Sans Condensed', sans-serif;
+  font-size:25px;
+}
+
+
+h2{
+  
+  position:absolute;
+  bottom:25px;
+  margin-bottom:23px;
+}
+
+.number-h1{
+  
+  position:absolute;
+  top:80px;
+  left:13px;
+  word-spacing:12px;
+}
+
+        
+      </style>
+      
+  </head>
+  <body>
+    
+    <div class="pro">
+      
+      <div class="inherit">
+        
+         <div class="items-test-2">
+           
+           <div class="items">
+          <h1 class="card2"><p class="par">213</p></h1>
+          <p>welcom to my card </p>
+          <img class="img2" src="https://www.mastercard.com/news/media/fohjtvht/mastercard-symbol_darkbg.jpg" title="img123">
+          <h1 class="name">salah cmd</h1>
+        </div>
+           
+         </div>
+        
+        <div class="items-test">
+          
+          <div class="items2">
+          <h1 class="master">master card</h1>
+          <img class="img3" src="https://www.mastercard.com/news/media/fohjtvht/mastercard-symbol_darkbg.jpg" title="img123">
+          <h1 class="number-h1">000 000 000</h1>
+          <h2>12/10</h2>
+          <p class="par-2">age 12/23/2027</p>
+        </div>
+          
+        </div>
+        
+      </div>
+      
+    </div>
+    
+  </body>
+</html>
